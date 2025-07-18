@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="left-panel">
+            <h2>Companies</h2>
+            <ul id="company-list">
+                </ul>
+        </aside>
+        <main class="main-panel">
+            <h1 id="chart-title">Select a Company to View Stock Data</h1>
+            <div class="chart-container">
+                <canvas id="stock-chart"></canvas>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
